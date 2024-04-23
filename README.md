@@ -17,5 +17,9 @@ Commands are issued by pressing a sequence of intermitten spaces and pauses, whi
 
 By default, the time interval between commands is 1 second. For example, the command `Space` `Pause` `Space` could be issued by pressing Space on second 1, pausing on second 2, and pressing Space again on second 3.
 ### Commands
-- Push: `Space` `Pause` `Space` `Pause` `Space` (This will trigger the push command, which will then wait for a sequence of consecutive Spaces to determine what number to push to the stack. The number of consecutive Spaces is equal to the value of the number pushed to the stack)
-- Pop: `Space` `Pause` `Space` `Pause` `Pause`
+- Push: `Space` `Space` `Space` `Space` `Pause` (This will trigger the push command, which will then wait for a sequence of consecutive Spaces to determine what number to push to the stack. The number of consecutive Spaces is equal to the value of the number pushed to the stack)
+- Pop: `Space` `Space` `Space` `Space` `Space` (This will pop the top item off the stack)
+- Add: `Space` `Space` `Space` `Pause` `Pause` (This will pop the top two items off the stack, add them, and push the result back onto the stack)
+- Subtract: `Space` `Pause` `Pause` `Pause` `Pause` (This will pop the top two items off the stack, calculate second-top - top, and push the result back onto the stack)
+- Multiply: `Space` `Space` `Pause` `Pause` `Pause` (This will pop the top two items off the stack, multiply them, and push the result back onto the stack)
+- Divide: `Space` `Pause` `Space` `Pause` `Pause` (This will pop the top two items off the stack, calculate second-top / top, and push the result back onto the stack)
