@@ -1,6 +1,6 @@
 # bop
 ## Introduction
-Bop is a "fun" way to get programming! As a theoretically Turing-complete language, Bop can do anything that any other language can do, just way worse!
+Bop is a "super fun" esoteric programming language.
 ## Design Principles
 
 ## Language Concepts
