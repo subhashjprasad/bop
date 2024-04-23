@@ -10,7 +10,12 @@ Bop is a stack-based programming language, as everything revolves around a centr
 - `Spacebar`
 
 That's it.
+
 By pressing Spacebar repeatedly at various time intervals, commands are issued and interpreted into generic stack-based programming commands like `push`, `pop`, `add`, as well as control flow commands like `while`. Specific commands and how to issue them are detailed in the next section.
 ## Syntax Elements
 Commands are issued by pressing a sequence of intermitten spaces and pauses, which will be represented as `Space` and `Pause` respectively below.
+
 By default, the time interval between commands is 1 second. For example, the command `Space` `Pause` `Space` could be issued by pressing Space on second 1, pausing on second 2, and pressing Space again on second 3.
+### Commands
+- Push: `Space` `Pause` `Space` `Pause` `Space` (This will trigger the push command, which will then wait for a sequence of consecutive Spaces to determine what number to push to the stack. The number of consecutive Spaces is equal to the value of the number pushed to the stack)
+- Pop: `Space` `Pause` `Space` `Pause` `Pause`
