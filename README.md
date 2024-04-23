@@ -7,8 +7,8 @@ Bop is a super fun esoteric programming language in which code is "written" by p
 - It should be fun to program in Bop!
 ## Language Concepts
 Programs in Bop are created by first running the corresponding Python script, which opens a window in which your inputs will be entered. Accepted inputs are as follows:
-- Spacebar
+- `Spacebar`
 
 That's it.
-By pressing Spacebar repeatedly at various time intervals, commands are issued and interpreted into generic programming commands: 
+By pressing Spacebar repeatedly at various time intervals, commands are issued and interpreted into generic stack-based programming commands like `push`, `pop`, `add`, as well as control flow commands like `while`.
 ## Syntax Elements
