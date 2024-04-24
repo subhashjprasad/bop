@@ -27,7 +27,7 @@ By default, the time interval between commands is 1 second. For example, the com
 - **Not**: `Space` `Space` `Space` `Pause` `Space` (This will replace the top item of the stack with 0 if it is non-zero, and 1 if it is zero)
 - **Greater**: `Space` `Pause` `Pause` `Pause` `Space` (This will pop the top two items off the stack, push a 1 onto the stack if second-top > top and pushes a 0 otherwise)
 - **Duplicate**: `Space` `Pause` `Pause` `Space` `Space` (This will push another copy of the top item of the stack onto the stack)
-- **Roll**: `Space` `Pause` `Space` `Space` `Space` (This will pop the top two items off the stack and rolls the remaining stack entries to a depth equal to the second-top item, by a number of rolls equal to the top item)
+- **Roll**: `Space` `Pause` `Space` `Space` `Space` (This will pop the top two items off the stack and rolls the remaining stack entries to a depth equal to the second-top item, by a *nonnegative* number of rolls equal to the top item)
 - **In**: `Space` `Pause` `Space` `Pause` `Space` (This will read a value from the user and push it onto the stack)
 - **Out**: `Space` `Pause` `Space` `Space` `Pause` (This will pop and output the top value of the stack)
 - **Start while**: `Space` `Space` `Pause` `Pause` `Space` (This will signify the beginnning of a while loop that executes as long as the top value of the stack is not 0)
