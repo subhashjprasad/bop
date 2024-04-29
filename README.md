@@ -1,6 +1,6 @@
 # bop
 ## Introduction
-Bop is a super fun esoteric programming language in which code is "written" by pressing an input according to predetermined rhythms.
+Bop is a super fun esoteric programming language in which code is "written" by pressing inputs according to predetermined rhythms.
 ## Design Principles
 - Keyboards are large, unwieldy, and wholly unnecessary for programming in Bop; A single key should suffice.
 - Theoretically, by decreasing the time interval, programs in Bop can be created from scratch in a matter of seconds.
